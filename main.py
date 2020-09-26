@@ -2,7 +2,11 @@
 # for all the operations except some of the operation like
 # 45*3=555, 56+9=77,56/6=4
 
-operator = input('enter the operator')
+operator = input('enter the operator\n'
+                '* for multiplication\n'
+                '+ for addition\n'
+                '/ for division\n'
+                '- for substraction')
 val1 = int(input('enter the first operand'))
 val2 = int(input('enter the second operand'))
 
